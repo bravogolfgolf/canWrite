@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element extends="task" label="glideElement" max_length="40" name="x_402400_canwrite_glideelement" type="collection"/>
+</database>

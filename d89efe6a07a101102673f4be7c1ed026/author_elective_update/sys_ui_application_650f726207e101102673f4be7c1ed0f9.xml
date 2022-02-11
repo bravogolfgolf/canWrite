@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_application">
+    <sys_ui_application action="DELETE">
+        <active>true</active>
+        <hint/>
+        <name>Test</name>
+        <order/>
+        <roles>x_402400_canwrite.glideelement_user</roles>
+        <sys_class_name>sys_ui_application</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-02-11 17:36:39</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>650f726207e101102673f4be7c1ed0f9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Test</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="canWrite" source="x_402400_canwrite">d89efe6a07a101102673f4be7c1ed026</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="canWrite">d89efe6a07a101102673f4be7c1ed026</sys_scope>
+        <sys_update_name>sys_ui_application_650f726207e101102673f4be7c1ed0f9</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-02-11 17:36:39</sys_updated_on>
+    </sys_ui_application>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="canWrite">d89efe6a07a101102673f4be7c1ed026</application>
+        <file_path/>
+        <instance_id>7e6ed576dbc7ac90e26fd7c8f49619fd</instance_id>
+        <instance_name>dev108669</instance_name>
+        <name>sys_ui_application_650f726207e101102673f4be7c1ed0f9</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_application"><sys_ui_application action="INSERT_OR_UPDATE"><active>true</active><hint/><name>Test</name><order/><roles>x_402400_canwrite.glideelement_user</roles><sys_class_name>sys_ui_application</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-02-11 17:36:39</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>650f726207e101102673f4be7c1ed0f9</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Test</sys_name><sys_overrides/><sys_package display_value="canWrite" source="x_402400_canwrite">d89efe6a07a101102673f4be7c1ed026</sys_package><sys_policy/><sys_scope display_value="canWrite">d89efe6a07a101102673f4be7c1ed026</sys_scope><sys_update_name>sys_ui_application_650f726207e101102673f4be7c1ed0f9</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-02-11 17:36:39</sys_updated_on></sys_ui_application></record_update>]]></payload>
+        <payload_hash>225539794</payload_hash>
+        <record_name>Test</record_name>
+        <reverted_from/>
+        <source>9c9efe6a07a101102673f4be7c1ed028</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-02-11 17:36:39</sys_created_on>
+        <sys_id>ed0f726207e101102673f4be7c1ed0fb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17ee9dbbf4d0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-02-11 17:36:39</sys_updated_on>
+        <type>Application Menu</type>
+        <update_guid>290f7262dfe101106bd8a6407eb91cfb</update_guid>
+        <update_guid_history>290f7262dfe101106bd8a6407eb91cfb:225539794</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-02-11 17:38:24</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_application">sys_ui_application</sys_db_object>
+        <sys_id>42b79ba37d764ed0883d248381c5ba81</sys_id>
+        <sys_metadata>650f726207e101102673f4be7c1ed0f9</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Test</sys_name>
+        <sys_package display_value="canWrite" source="x_402400_canwrite">d89efe6a07a101102673f4be7c1ed026</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="canWrite">d89efe6a07a101102673f4be7c1ed026</sys_scope>
+        <sys_scope_delete display_value="">4d786b39dd554ba0af8b3eda5f6d8900</sys_scope_delete>
+        <sys_update_name>sys_ui_application_650f726207e101102673f4be7c1ed0f9</sys_update_name>
+        <sys_update_version display_value="sys_ui_application_650f726207e101102673f4be7c1ed0f9">ed0f726207e101102673f4be7c1ed0fb</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-02-11 17:38:24</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
