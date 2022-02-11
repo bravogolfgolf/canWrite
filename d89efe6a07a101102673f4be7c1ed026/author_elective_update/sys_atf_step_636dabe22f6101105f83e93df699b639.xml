@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step">
+    <sys_atf_step action="DELETE">
+        <active>true</active>
+        <copied_from/>
+        <description>Impersonate the user: {{Step 2: Create a User.User}}</description>
+        <display_name>Impersonate</display_name>
+        <inputs/>
+        <inputs/>
+        <mugshots_cache_json/>
+        <notes/>
+        <order>3</order>
+        <snapshot/>
+        <step_config display_value="Impersonate">071ee5b253331200040729cac2dc348d</step_config>
+        <sys_class_name>sys_atf_step</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-02-11 20:59:32</sys_created_on>
+        <sys_id>636dabe22f6101105f83e93df699b639</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>Impersonate</sys_name>
+        <sys_package display_value="canWrite" source="x_402400_canwrite">d89efe6a07a101102673f4be7c1ed026</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="canWrite">d89efe6a07a101102673f4be7c1ed026</sys_scope>
+        <sys_update_name>sys_atf_step_636dabe22f6101105f83e93df699b639</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-02-11 21:21:32</sys_updated_on>
+        <table/>
+        <test display_value="Can Write">1a04cb6607e101102673f4be7c1ed0a6</test>
+        <timeout/>
+        <warning_message/>
+    </sys_atf_step>
+    <sys_variable_value action="DELETE" query="document_key=636dabe22f6101105f83e93df699b639"/>
+    <sys_variable_value action="DELETE">
+        <document>sys_atf_step</document>
+        <document_key>636dabe22f6101105f83e93df699b639</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-02-11 20:59:32</sys_created_on>
+        <sys_id>dd7d6fe22f6101105f83e93df699b6ec</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-02-11 20:59:32</sys_updated_on>
+        <value/>
+        <variable display_value="User">586e2c4253e0220002c6435723dc3415</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="DELETE" query="id=636dabe22f6101105f83e93df699b639"/>
+    <sys_element_mapping action="DELETE">
+        <field>user</field>
+        <id>636dabe22f6101105f83e93df699b639</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-02-11 20:59:32</sys_created_on>
+        <sys_id>5d7d6fe22f6101105f83e93df699b6ec</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-02-11 20:59:32</sys_updated_on>
+        <table>var__m_atf_input_variable_071ee5b253331200040729cac2dc348d</table>
+        <value>{{step['0c44cf2607e101102673f4be7c1ed0c3'].user}}</value>
+    </sys_element_mapping>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="canWrite">d89efe6a07a101102673f4be7c1ed026</application>
+        <file_path/>
+        <instance_id>e0202210dbbe049442b321c405961990</instance_id>
+        <instance_name>dev98963</instance_name>
+        <name>sys_atf_step_636dabe22f6101105f83e93df699b639</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step"><sys_atf_step action="INSERT_OR_UPDATE"><active>true</active><copied_from/><description>Impersonate the user: {{Step 2: Create a User.User}}</description><display_name>Impersonate</display_name><inputs/><inputs/><mugshots_cache_json/><notes/><order>3</order><snapshot/><step_config display_value="Impersonate">071ee5b253331200040729cac2dc348d</step_config><sys_class_name>sys_atf_step</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-02-11 20:59:32</sys_created_on><sys_id>636dabe22f6101105f83e93df699b639</sys_id><sys_mod_count>3</sys_mod_count><sys_name>Impersonate</sys_name><sys_package display_value="canWrite" source="x_402400_canwrite">d89efe6a07a101102673f4be7c1ed026</sys_package><sys_policy/><sys_scope display_value="canWrite">d89efe6a07a101102673f4be7c1ed026</sys_scope><sys_update_name>sys_atf_step_636dabe22f6101105f83e93df699b639</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-02-11 21:21:32</sys_updated_on><table/><test display_value="Can Write">1a04cb6607e101102673f4be7c1ed0a6</test><timeout/><warning_message/></sys_atf_step><sys_variable_value action="delete_multiple" query="document_key=636dabe22f6101105f83e93df699b639"/><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_atf_step</document><document_key>636dabe22f6101105f83e93df699b639</document_key><order>100</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-02-11 20:59:32</sys_created_on><sys_id>dd7d6fe22f6101105f83e93df699b6ec</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-02-11 20:59:32</sys_updated_on><value/><variable display_value="User">586e2c4253e0220002c6435723dc3415</variable></sys_variable_value><sys_element_mapping action="delete_multiple" query="id=636dabe22f6101105f83e93df699b639"/><sys_element_mapping action="INSERT_OR_UPDATE"><field>user</field><id>636dabe22f6101105f83e93df699b639</id><sys_created_by>admin</sys_created_by><sys_created_on>2022-02-11 20:59:32</sys_created_on><sys_id>5d7d6fe22f6101105f83e93df699b6ec</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-02-11 20:59:32</sys_updated_on><table>var__m_atf_input_variable_071ee5b253331200040729cac2dc348d</table><value>{{step['0c44cf2607e101102673f4be7c1ed0c3'].user}}</value></sys_element_mapping></record_update>]]></payload>
+        <payload_hash>-1397188657</payload_hash>
+        <record_name>Impersonate</record_name>
+        <reverted_from/>
+        <source>054fd7e62f2101105f83e93df699b62a</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-02-11 21:21:32</sys_created_on>
+        <sys_id>23723b2a2f6101105f83e93df699b694</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17eeaa9a1ce0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-02-11 21:21:32</sys_updated_on>
+        <type>Test Step</type>
+        <update_guid>2b723b2a256101106f3917911db38093</update_guid>
+        <update_guid_history>2b723b2a256101106f3917911db38093:-1397188657,488da326886101101fe8160c4335ec91:-1686778802,9d7d6fe2da6101103ac9614f64ad76ee:-1277864880</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-02-11 21:22:00</sys_created_on>
+        <sys_db_object display_value="" name="sys_atf_step">sys_atf_step</sys_db_object>
+        <sys_id>0e8955363233478680dce1b766efdaa4</sys_id>
+        <sys_metadata>636dabe22f6101105f83e93df699b639</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Impersonate</sys_name>
+        <sys_package display_value="canWrite" source="x_402400_canwrite">d89efe6a07a101102673f4be7c1ed026</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="canWrite">d89efe6a07a101102673f4be7c1ed026</sys_scope>
+        <sys_scope_delete display_value="">4d786b39dd554ba0af8b3eda5f6d8900</sys_scope_delete>
+        <sys_update_name>sys_atf_step_636dabe22f6101105f83e93df699b639</sys_update_name>
+        <sys_update_version display_value="sys_atf_step_636dabe22f6101105f83e93df699b639">23723b2a2f6101105f83e93df699b694</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-02-11 21:22:00</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
