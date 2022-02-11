@@ -3,29 +3,27 @@
         <active>true</active>
         <copied_from/>
         <description>Insert a record into 'x_402400_canwrite_glideelement' with the following values:
-Order for = {{Step 1: Create a User.User}}
-and Short description = ACL is active
+Short description = ACL is active
 Confirm the record was successfully inserted</description>
         <display_name>Record Insert</display_name>
         <inputs/>
-        <inputs/>
         <mugshots_cache_json/>
         <notes/>
-        <order>10</order>
+        <order>8</order>
         <snapshot/>
         <step_config display_value="Record Insert">14872288df60220062fe6c7a4df26319</step_config>
         <sys_class_name>sys_atf_step</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-02-11 22:01:49</sys_created_on>
         <sys_id>f1bbbb622fa101105f83e93df699b691</sys_id>
-        <sys_mod_count>4</sys_mod_count>
+        <sys_mod_count>15</sys_mod_count>
         <sys_name>Record Insert</sys_name>
         <sys_package display_value="canWrite" source="x_402400_canwrite">d89efe6a07a101102673f4be7c1ed026</sys_package>
         <sys_policy/>
         <sys_scope display_value="canWrite">d89efe6a07a101102673f4be7c1ed026</sys_scope>
         <sys_update_name>sys_atf_step_f1bbbb622fa101105f83e93df699b691</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-02-11 23:04:08</sys_updated_on>
+        <sys_updated_on>2022-02-11 23:11:38</sys_updated_on>
         <table>x_402400_canwrite_glideelement</table>
         <test display_value="Can Write">1a04cb6607e101102673f4be7c1ed0a6</test>
         <timeout/>
@@ -82,23 +80,11 @@ Confirm the record was successfully inserted</description>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-02-11 22:01:49</sys_created_on>
         <sys_id>f9bbbb622fa101105f83e93df699b693</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-02-11 22:01:49</sys_updated_on>
-        <value>order_for={{step['0c44cf2607e101102673f4be7c1ed0c3'].user}}^short_description=ACL is active^EQ</value>
+        <sys_updated_on>2022-02-11 23:11:38</sys_updated_on>
+        <value>short_description=ACL is active^EQ</value>
         <variable display_value="Field values">dd54cf535320220002c6435723dc34fd</variable>
     </sys_variable_value>
-    <sys_element_mapping action="delete_multiple" query="id=f1bbbb622fa101105f83e93df699b691"/>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>field_values</field>
-        <id>f1bbbb622fa101105f83e93df699b691</id>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2022-02-11 22:01:49</sys_created_on>
-        <sys_id>71bbbb622fa101105f83e93df699b694</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-02-11 22:01:49</sys_updated_on>
-        <table>var__m_atf_input_variable_14872288df60220062fe6c7a4df26319</table>
-        <value>order_for={{step['0c44cf2607e101102673f4be7c1ed0c3'].user}}^short_description=ACL is active^EQ</value>
-    </sys_element_mapping>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_atf_input_variable_14872288df60220062fe6c7a4df26319^id=f1bbbb622fa101105f83e93df699b691"/>
 </record_update>
