@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step">
+    <sys_atf_step action="DELETE">
+        <active>true</active>
+        <copied_from/>
+        <description>Validate record from table 'x_402400_canwrite_glideelement' matches the following condition:
+Order for = {{Step 1: Create a User.User}}
+and Short description is empty
+With a failure timeout of 5 Seconds</description>
+        <display_name>Record Validation</display_name>
+        <inputs/>
+        <inputs/>
+        <mugshots_cache_json/>
+        <notes/>
+        <order>12</order>
+        <snapshot/>
+        <step_config display_value="Record Validation">1f39a288df60220062fe6c7a4df2639d</step_config>
+        <sys_class_name>sys_atf_step</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-02-14 15:56:06</sys_created_on>
+        <sys_id>7f940ae7076101102673f4be7c1ed054</sys_id>
+        <sys_mod_count>113</sys_mod_count>
+        <sys_name>Record Validation</sys_name>
+        <sys_package display_value="canWrite" source="x_402400_canwrite">d89efe6a07a101102673f4be7c1ed026</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="canWrite">d89efe6a07a101102673f4be7c1ed026</sys_scope>
+        <sys_update_name>sys_atf_step_7f940ae7076101102673f4be7c1ed054</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-02-14 18:57:55</sys_updated_on>
+        <table>x_402400_canwrite_glideelement</table>
+        <test display_value="ACL Behavior Test - Active Base/Inactive SD">1a04cb6607e101102673f4be7c1ed0a6</test>
+        <timeout>1970-01-01 00:00:05</timeout>
+        <warning_message/>
+    </sys_atf_step>
+    <sys_variable_value action="DELETE" query="document_key=7f940ae7076101102673f4be7c1ed054"/>
+    <sys_variable_value action="DELETE">
+        <document>sys_atf_step</document>
+        <document_key>7f940ae7076101102673f4be7c1ed054</document_key>
+        <order>10</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-02-14 15:56:07</sys_created_on>
+        <sys_id>0ac4ce2b076101102673f4be7c1ed0de</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-02-14 15:56:07</sys_updated_on>
+        <value>1</value>
+        <variable display_value="Enforce security">cbddfa135320220002c6435723dc3415</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>sys_atf_step</document>
+        <document_key>7f940ae7076101102673f4be7c1ed054</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-02-14 15:56:07</sys_created_on>
+        <sys_id>46c4ce2b076101102673f4be7c1ed0de</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-02-14 15:56:07</sys_updated_on>
+        <value/>
+        <variable display_value="Record">52ed1e5b5360220002c6435723dc3421</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>sys_atf_step</document>
+        <document_key>7f940ae7076101102673f4be7c1ed054</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-02-14 15:56:07</sys_created_on>
+        <sys_id>82c4ce2b076101102673f4be7c1ed0de</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-02-14 16:03:42</sys_updated_on>
+        <value>record_validated</value>
+        <variable display_value="Assert type">67400008676003007ba405225685efa4</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>sys_atf_step</document>
+        <document_key>7f940ae7076101102673f4be7c1ed054</document_key>
+        <order>300</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-02-14 15:56:07</sys_created_on>
+        <sys_id>8ec4ce2b076101102673f4be7c1ed0de</sys_id>
+        <sys_mod_count>7</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-02-14 16:53:40</sys_updated_on>
+        <value>order_for={{step['0c44cf2607e101102673f4be7c1ed0c3'].user}}^short_descriptionISEMPTY^EQ</value>
+        <variable display_value="Field values">ff6e125353a0220002c6435723dc3442</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>sys_atf_step</document>
+        <document_key>7f940ae7076101102673f4be7c1ed054</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-02-14 15:56:07</sys_created_on>
+        <sys_id>cac4ce2b076101102673f4be7c1ed0de</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-02-14 15:56:07</sys_updated_on>
+        <value>x_402400_canwrite_glideelement</value>
+        <variable display_value="Table">6aad5a575360220002c6435723dc34b0</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="DELETE" query="id=7f940ae7076101102673f4be7c1ed054"/>
+    <sys_element_mapping action="DELETE">
+        <field>enforce_security</field>
+        <id>7f940ae7076101102673f4be7c1ed054</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-02-14 15:56:07</sys_created_on>
+        <sys_id>4ec4ce2b076101102673f4be7c1ed0dd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-02-14 15:56:07</sys_updated_on>
+        <table>var__m_atf_input_variable_1f39a288df60220062fe6c7a4df2639d</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="DELETE">
+        <field>field_values</field>
+        <id>7f940ae7076101102673f4be7c1ed054</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-02-14 15:56:07</sys_created_on>
+        <sys_id>02c4ce2b076101102673f4be7c1ed0de</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-02-14 16:53:40</sys_updated_on>
+        <table>var__m_atf_input_variable_1f39a288df60220062fe6c7a4df2639d</table>
+        <value>order_for={{step['0c44cf2607e101102673f4be7c1ed0c3'].user}}^short_descriptionISEMPTY^EQ</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="DELETE">
+        <field>record_id</field>
+        <id>7f940ae7076101102673f4be7c1ed054</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-02-14 15:56:07</sys_created_on>
+        <sys_id>8ac4ce2b076101102673f4be7c1ed0dd</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-02-14 18:19:25</sys_updated_on>
+        <table>var__m_atf_input_variable_1f39a288df60220062fe6c7a4df2639d</table>
+        <value>{{step['8145e6ab07e101102673f4be7c1ed0c8'].record_id}}</value>
+    </sys_element_mapping>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="canWrite">d89efe6a07a101102673f4be7c1ed026</application>
+        <file_path/>
+        <instance_id>7e6ed576dbc7ac90e26fd7c8f49619fd</instance_id>
+        <instance_name>dev108669</instance_name>
+        <name>sys_atf_step_7f940ae7076101102673f4be7c1ed054</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step"><sys_atf_step action="INSERT_OR_UPDATE"><active>true</active><copied_from/><description>Validate record from table 'x_402400_canwrite_glideelement' matches the following condition:
+Order for = {{Step 1: Create a User.User}}
+and Short description is empty
+With a failure timeout of 5 Seconds</description><display_name>Record Validation</display_name><inputs/><inputs/><mugshots_cache_json/><notes/><order>12</order><snapshot/><step_config display_value="Record Validation">1f39a288df60220062fe6c7a4df2639d</step_config><sys_class_name>sys_atf_step</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-02-14 15:56:06</sys_created_on><sys_id>7f940ae7076101102673f4be7c1ed054</sys_id><sys_mod_count>113</sys_mod_count><sys_name>Record Validation</sys_name><sys_package display_value="canWrite" source="x_402400_canwrite">d89efe6a07a101102673f4be7c1ed026</sys_package><sys_policy/><sys_scope display_value="canWrite">d89efe6a07a101102673f4be7c1ed026</sys_scope><sys_update_name>sys_atf_step_7f940ae7076101102673f4be7c1ed054</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-02-14 18:57:55</sys_updated_on><table>x_402400_canwrite_glideelement</table><test display_value="ACL Behavior Test - Active Base/Inactive SD">1a04cb6607e101102673f4be7c1ed0a6</test><timeout>1970-01-01 00:00:05</timeout><warning_message/></sys_atf_step><sys_variable_value action="delete_multiple" query="document_key=7f940ae7076101102673f4be7c1ed054"/><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_atf_step</document><document_key>7f940ae7076101102673f4be7c1ed054</document_key><order>10</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-02-14 15:56:07</sys_created_on><sys_id>0ac4ce2b076101102673f4be7c1ed0de</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-02-14 15:56:07</sys_updated_on><value>1</value><variable display_value="Enforce security">cbddfa135320220002c6435723dc3415</variable></sys_variable_value><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_atf_step</document><document_key>7f940ae7076101102673f4be7c1ed054</document_key><order>200</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-02-14 15:56:07</sys_created_on><sys_id>46c4ce2b076101102673f4be7c1ed0de</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-02-14 15:56:07</sys_updated_on><value/><variable display_value="Record">52ed1e5b5360220002c6435723dc3421</variable></sys_variable_value><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_atf_step</document><document_key>7f940ae7076101102673f4be7c1ed054</document_key><order>100</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-02-14 15:56:07</sys_created_on><sys_id>82c4ce2b076101102673f4be7c1ed0de</sys_id><sys_mod_count>2</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-02-14 16:03:42</sys_updated_on><value>record_validated</value><variable display_value="Assert type">67400008676003007ba405225685efa4</variable></sys_variable_value><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_atf_step</document><document_key>7f940ae7076101102673f4be7c1ed054</document_key><order>300</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-02-14 15:56:07</sys_created_on><sys_id>8ec4ce2b076101102673f4be7c1ed0de</sys_id><sys_mod_count>7</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-02-14 16:53:40</sys_updated_on><value>order_for={{step['0c44cf2607e101102673f4be7c1ed0c3'].user}}^short_descriptionISEMPTY^EQ</value><variable display_value="Field values">ff6e125353a0220002c6435723dc3442</variable></sys_variable_value><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_atf_step</document><document_key>7f940ae7076101102673f4be7c1ed054</document_key><order>100</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-02-14 15:56:07</sys_created_on><sys_id>cac4ce2b076101102673f4be7c1ed0de</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-02-14 15:56:07</sys_updated_on><value>x_402400_canwrite_glideelement</value><variable display_value="Table">6aad5a575360220002c6435723dc34b0</variable></sys_variable_value><sys_element_mapping action="delete_multiple" query="id=7f940ae7076101102673f4be7c1ed054"/><sys_element_mapping action="INSERT_OR_UPDATE"><field>enforce_security</field><id>7f940ae7076101102673f4be7c1ed054</id><sys_created_by>admin</sys_created_by><sys_created_on>2022-02-14 15:56:07</sys_created_on><sys_id>4ec4ce2b076101102673f4be7c1ed0dd</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-02-14 15:56:07</sys_updated_on><table>var__m_atf_input_variable_1f39a288df60220062fe6c7a4df2639d</table><value/></sys_element_mapping><sys_element_mapping action="INSERT_OR_UPDATE"><field>field_values</field><id>7f940ae7076101102673f4be7c1ed054</id><sys_created_by>admin</sys_created_by><sys_created_on>2022-02-14 15:56:07</sys_created_on><sys_id>02c4ce2b076101102673f4be7c1ed0de</sys_id><sys_mod_count>1</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-02-14 16:53:40</sys_updated_on><table>var__m_atf_input_variable_1f39a288df60220062fe6c7a4df2639d</table><value>order_for={{step['0c44cf2607e101102673f4be7c1ed0c3'].user}}^short_descriptionISEMPTY^EQ</value></sys_element_mapping><sys_element_mapping action="INSERT_OR_UPDATE"><field>record_id</field><id>7f940ae7076101102673f4be7c1ed054</id><sys_created_by>admin</sys_created_by><sys_created_on>2022-02-14 15:56:07</sys_created_on><sys_id>8ac4ce2b076101102673f4be7c1ed0dd</sys_id><sys_mod_count>3</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-02-14 18:19:25</sys_updated_on><table>var__m_atf_input_variable_1f39a288df60220062fe6c7a4df2639d</table><value>{{step['8145e6ab07e101102673f4be7c1ed0c8'].record_id}}</value></sys_element_mapping></record_update>]]></payload>
+        <payload_hash>645764862</payload_hash>
+        <record_name>Record Validation</record_name>
+        <reverted_from/>
+        <source>e5114ba207e101102673f4be7c1ed097</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-02-14 18:57:55</sys_created_on>
+        <sys_id>dd6e6667072501102673f4be7c1ed016</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17ef9993acb0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-02-14 18:57:55</sys_updated_on>
+        <type>Test Step</type>
+        <update_guid>d56e6667472501102765b367cb132216</update_guid>
+        <update_guid_history>d56e6667472501102765b367cb132216:645764862,bc6e266763250110b4e6860e8b3c627d:-656441025,1c6ee26761250110f537ddc876b481ff:-1958646912,2f5ee267fe25011068cee8630f75bb5d:1034114497,cb5ea267282501109839e52b193735dd:-268091390,265ea2671d2501107175be7010a0bf32:-1570297277,755e6267b7250110b64973e83d4915a2:1422464132,9d5e22672e25011085905889f76012f9:120258245,385e22675225011014a274c16c4dea58:1536499803,f22daee34e25011048d99baad87257f1:234293916,ce2d6ee38a250110eeddebfa4ad4644f:-1067911971,c52d2ee36a250110831d9d0fc9d9427c:1924849438,c82deae35a2501108d63b83505eb1773:622643551,9f1daae3af2501105ca3d48225c9b897:-679562336,9e1d6ae3da250110f49145c435b50ba1:-1981768223,111d2ae3bf250110093194ed15bc1e5e:1010993186,1c1de6e3d325011082bdb30c2c938869:-291212701,9b0da6e36525011005f97d7e5f92c782:-1593418588,0195aeabece10110077965fe4212bd98:1453197053,09556aab88e10110df89720e9306eae8:-1698382761,2835e6ab51e1011068b6ebb00f095b29:687193153,f1642a6b78e1011084e5fda7d07d91b3:990854208,5644666b0be10110ddf008516a10f3d9:1294515263,6643662b77e10110e51a9789381f99b7:1598176318,ea13a22bf5e10110edadc86c2e0c889f:1901837373,18c2eae73be101109969f8950b53ed98:-2089468868,d56266e741e1011076321e1c278ab6d5:-1785807813,60a2dea753a10110c9de46c72188629d:-2137116319,c5f1d2a7bba1011071dc7f24faa7b19b:1989760711,bdb192a7fea10110b1257655ae868932:-102702901,3ca092e3eea10110e8b468b65e225734:-330069716,06409a2791a10110035ea8ed0c81e359:1923964254,d920d627c1a10110e4abcc56cd62cade:1359838653,06ddc6a3aca10110ca89f01074f741d1:1923964254,eafa4aef76610110a8695d85c88df777:-1806877441,265a8eaf24610110365a35b8d582f475:1923964254,7c3a8aafab6101104f03f9e87da401ac:1359838653,81a902af9861011093b2bd8e37c2aa52:1923964254,fc59ca6f29610110b49f4fc82aa71b65:-1806877441,cd470eeb7d61011024533c02fefe8668:2013951189,fb07c6eb67610110c7abc683a9501452:1474888327,a5e6ceabc9610110a5a663ef37dff881:1967142453,1d86c6abda610110b9b3d781a3f783e2:1762006295,b5654a6b37610110a4099b28a3095995:466084985,5e15466b376101106ff9d7f92c1181b2:436559029,46c4ce2bc8610110c06d764b769c80e1:209192214</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-02-14 18:58:25</sys_created_on>
+        <sys_db_object display_value="" name="sys_atf_step">sys_atf_step</sys_db_object>
+        <sys_id>52b8cdfab6534b3c98aa13ed4b365904</sys_id>
+        <sys_metadata>7f940ae7076101102673f4be7c1ed054</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Record Validation</sys_name>
+        <sys_package display_value="canWrite" source="x_402400_canwrite">d89efe6a07a101102673f4be7c1ed026</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="canWrite">d89efe6a07a101102673f4be7c1ed026</sys_scope>
+        <sys_scope_delete display_value="">4d786b39dd554ba0af8b3eda5f6d8900</sys_scope_delete>
+        <sys_update_name>sys_atf_step_7f940ae7076101102673f4be7c1ed054</sys_update_name>
+        <sys_update_version display_value="sys_atf_step_7f940ae7076101102673f4be7c1ed054">dd6e6667072501102673f4be7c1ed016</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-02-14 18:58:25</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

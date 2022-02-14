@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_test">
+    <sys_atf_test action="DELETE">
+        <active>true</active>
+        <copied_from display_value="ACL Behavior Test - Active Base/Inactive SD">1a04cb6607e101102673f4be7c1ed0a6</copied_from>
+        <description/>
+        <enable_parameterized_testing>false</enable_parameterized_testing>
+        <name>ACL Behavior Test - All</name>
+        <parameters/>
+        <remember/>
+        <sys_class_name>sys_atf_test</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-02-14 18:51:01</sys_created_on>
+        <sys_id>80dceaa3072501102673f4be7c1ed00e</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>ACL Behavior Test - All</sys_name>
+        <sys_package display_value="canWrite" source="x_402400_canwrite">d89efe6a07a101102673f4be7c1ed026</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="canWrite">d89efe6a07a101102673f4be7c1ed026</sys_scope>
+        <sys_update_name>sys_atf_test_80dceaa3072501102673f4be7c1ed00e</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-02-14 18:51:22</sys_updated_on>
+    </sys_atf_test>
+    <sys_variable_value action="DELETE" query="document_key=80dceaa3072501102673f4be7c1ed00e"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="canWrite">d89efe6a07a101102673f4be7c1ed026</application>
+        <file_path/>
+        <instance_id>7e6ed576dbc7ac90e26fd7c8f49619fd</instance_id>
+        <instance_name>dev108669</instance_name>
+        <name>sys_atf_test_80dceaa3072501102673f4be7c1ed00e</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_test"><sys_atf_test action="INSERT_OR_UPDATE"><active>true</active><copied_from display_value="ACL Behavior Test - Active Base/Inactive SD">1a04cb6607e101102673f4be7c1ed0a6</copied_from><description/><enable_parameterized_testing>false</enable_parameterized_testing><name>ACL Behavior Test - All</name><parameters/><remember/><sys_class_name>sys_atf_test</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-02-14 18:51:01</sys_created_on><sys_id>80dceaa3072501102673f4be7c1ed00e</sys_id><sys_mod_count>1</sys_mod_count><sys_name>ACL Behavior Test - All</sys_name><sys_package display_value="canWrite" source="x_402400_canwrite">d89efe6a07a101102673f4be7c1ed026</sys_package><sys_policy/><sys_scope display_value="canWrite">d89efe6a07a101102673f4be7c1ed026</sys_scope><sys_update_name>sys_atf_test_80dceaa3072501102673f4be7c1ed00e</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-02-14 18:51:22</sys_updated_on></sys_atf_test><sys_variable_value action="delete_multiple" query="document_key=80dceaa3072501102673f4be7c1ed00e"/></record_update>]]></payload>
+        <payload_hash>-1184684359</payload_hash>
+        <record_name>ACL Behavior Test - All</record_name>
+        <reverted_from/>
+        <source>e5114ba207e101102673f4be7c1ed097</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-02-14 18:51:22</sys_created_on>
+        <sys_id>8dece2e3072501102673f4be7c1ed0a9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17ef993399d0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-02-14 18:51:22</sys_updated_on>
+        <type>Test</type>
+        <update_guid>85ece2e3ee2501108616603faf4f02a9</update_guid>
+        <update_guid_history>85ece2e3ee2501108616603faf4f02a9:-1184684359,08dceaa3dd2501108f8ea49a4478ac10:-4709525</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-02-14 19:21:53</sys_created_on>
+        <sys_db_object display_value="" name="sys_atf_test">sys_atf_test</sys_db_object>
+        <sys_id>609ca3912b074296b1d32f0e1db20751</sys_id>
+        <sys_metadata>80dceaa3072501102673f4be7c1ed00e</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>ACL Behavior Test - All</sys_name>
+        <sys_package display_value="canWrite" source="x_402400_canwrite">d89efe6a07a101102673f4be7c1ed026</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="canWrite">d89efe6a07a101102673f4be7c1ed026</sys_scope>
+        <sys_scope_delete display_value="">4d786b39dd554ba0af8b3eda5f6d8900</sys_scope_delete>
+        <sys_update_name>sys_atf_test_80dceaa3072501102673f4be7c1ed00e</sys_update_name>
+        <sys_update_version display_value="sys_atf_test_80dceaa3072501102673f4be7c1ed00e">8dece2e3072501102673f4be7c1ed0a9</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-02-14 19:21:53</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

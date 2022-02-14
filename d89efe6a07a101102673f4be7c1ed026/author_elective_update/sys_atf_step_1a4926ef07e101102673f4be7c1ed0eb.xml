@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step">
+    <sys_atf_step action="DELETE">
+        <active>true</active>
+        <copied_from display_value="">74e2712b072101102673f4be7c1ed00d</copied_from>
+        <description>Update a record in 'sys_security_acl' with the following values:
+Active = false
+Confirm the record was successfully updated
+
+Warning: Using a system table may cause unexpected behavior for other tests running in parallel&#13;
+Warning: Modifying an existing record may cause unexpected behavior for other tests running in parallel&#13;
+See the documentation for Test Design Considerations</description>
+        <display_name>Record Update</display_name>
+        <inputs/>
+        <mugshots_cache_json/>
+        <notes/>
+        <order>5</order>
+        <snapshot/>
+        <step_config display_value="Record Update">17a72288df60220062fe6c7a4df26397</step_config>
+        <sys_class_name>sys_atf_step</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-02-14 18:35:36</sys_created_on>
+        <sys_id>1a4926ef07e101102673f4be7c1ed0eb</sys_id>
+        <sys_mod_count>42</sys_mod_count>
+        <sys_name>Record Update</sys_name>
+        <sys_package display_value="canWrite" source="x_402400_canwrite">d89efe6a07a101102673f4be7c1ed026</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="canWrite">d89efe6a07a101102673f4be7c1ed026</sys_scope>
+        <sys_update_name>sys_atf_step_1a4926ef07e101102673f4be7c1ed0eb</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-02-14 19:19:14</sys_updated_on>
+        <table>sys_security_acl</table>
+        <test display_value="ACL Behavior Test - Active Conditional/Active SD">d949eeaf07e101102673f4be7c1ed010</test>
+        <timeout/>
+        <warning_message>Warning: Using a system table may cause unexpected behavior for other tests running in parallel&#13;
+Warning: Modifying an existing record may cause unexpected behavior for other tests running in parallel&#13;
+See the documentation for Test Design Considerations</warning_message>
+    </sys_atf_step>
+    <sys_variable_value action="DELETE" query="document_key=1a4926ef07e101102673f4be7c1ed0eb"/>
+    <sys_variable_value action="DELETE">
+        <document>sys_atf_step</document>
+        <document_key>1a4926ef07e101102673f4be7c1ed0eb</document_key>
+        <order>400</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-02-14 18:35:36</sys_created_on>
+        <sys_id>124926ef07e101102673f4be7c1ed0ed</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-02-14 18:35:36</sys_updated_on>
+        <value>active=false^EQ</value>
+        <variable display_value="Field values">bc4c43935320220002c6435723dc34a2</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>sys_atf_step</document>
+        <document_key>1a4926ef07e101102673f4be7c1ed0eb</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-02-14 18:35:36</sys_created_on>
+        <sys_id>164926ef07e101102673f4be7c1ed0ec</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-02-14 18:35:36</sys_updated_on>
+        <value>record_successfully_updated</value>
+        <variable display_value="Assert type">334b7bb7675003007ba405225685ef72</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>sys_atf_step</document>
+        <document_key>1a4926ef07e101102673f4be7c1ed0eb</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-02-14 18:35:36</sys_created_on>
+        <sys_id>5e4926ef07e101102673f4be7c1ed0ec</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-02-14 18:35:36</sys_updated_on>
+        <value>sys_security_acl</value>
+        <variable display_value="Table">53fb0f535320220002c6435723dc34ec</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>sys_atf_step</document>
+        <document_key>1a4926ef07e101102673f4be7c1ed0eb</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-02-14 18:35:36</sys_created_on>
+        <sys_id>9a4926ef07e101102673f4be7c1ed0ec</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-02-14 18:35:36</sys_updated_on>
+        <value>0</value>
+        <variable display_value="Enforce security">46dbcb535320220002c6435723dc3409</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>sys_atf_step</document>
+        <document_key>1a4926ef07e101102673f4be7c1ed0eb</document_key>
+        <order>300</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-02-14 18:35:36</sys_created_on>
+        <sys_id>d64926ef07e101102673f4be7c1ed0ec</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-02-14 18:35:36</sys_updated_on>
+        <value>de9243e207e101102673f4be7c1ed03a</value>
+        <variable display_value="Record">501c8f535320220002c6435723dc34da</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="DELETE" query="table=var__m_atf_input_variable_17a72288df60220062fe6c7a4df26397^id=1a4926ef07e101102673f4be7c1ed0eb"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="canWrite">d89efe6a07a101102673f4be7c1ed026</application>
+        <file_path/>
+        <instance_id>7e6ed576dbc7ac90e26fd7c8f49619fd</instance_id>
+        <instance_name>dev108669</instance_name>
+        <name>sys_atf_step_1a4926ef07e101102673f4be7c1ed0eb</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step"><sys_atf_step action="INSERT_OR_UPDATE"><active>true</active><copied_from display_value="">74e2712b072101102673f4be7c1ed00d</copied_from><description>Update a record in 'sys_security_acl' with the following values:
+Active = false
+Confirm the record was successfully updated
+
+Warning: Using a system table may cause unexpected behavior for other tests running in parallel&#13;
+Warning: Modifying an existing record may cause unexpected behavior for other tests running in parallel&#13;
+See the documentation for Test Design Considerations</description><display_name>Record Update</display_name><inputs/><mugshots_cache_json/><notes/><order>5</order><snapshot/><step_config display_value="Record Update">17a72288df60220062fe6c7a4df26397</step_config><sys_class_name>sys_atf_step</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-02-14 18:35:36</sys_created_on><sys_id>1a4926ef07e101102673f4be7c1ed0eb</sys_id><sys_mod_count>42</sys_mod_count><sys_name>Record Update</sys_name><sys_package display_value="canWrite" source="x_402400_canwrite">d89efe6a07a101102673f4be7c1ed026</sys_package><sys_policy/><sys_scope display_value="canWrite">d89efe6a07a101102673f4be7c1ed026</sys_scope><sys_update_name>sys_atf_step_1a4926ef07e101102673f4be7c1ed0eb</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-02-14 19:19:14</sys_updated_on><table>sys_security_acl</table><test display_value="ACL Behavior Test - Active Conditional/Active SD">d949eeaf07e101102673f4be7c1ed010</test><timeout/><warning_message>Warning: Using a system table may cause unexpected behavior for other tests running in parallel&#13;
+Warning: Modifying an existing record may cause unexpected behavior for other tests running in parallel&#13;
+See the documentation for Test Design Considerations</warning_message></sys_atf_step><sys_variable_value action="delete_multiple" query="document_key=1a4926ef07e101102673f4be7c1ed0eb"/><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_atf_step</document><document_key>1a4926ef07e101102673f4be7c1ed0eb</document_key><order>400</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-02-14 18:35:36</sys_created_on><sys_id>124926ef07e101102673f4be7c1ed0ed</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-02-14 18:35:36</sys_updated_on><value>active=false^EQ</value><variable display_value="Field values">bc4c43935320220002c6435723dc34a2</variable></sys_variable_value><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_atf_step</document><document_key>1a4926ef07e101102673f4be7c1ed0eb</document_key><order>100</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-02-14 18:35:36</sys_created_on><sys_id>164926ef07e101102673f4be7c1ed0ec</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-02-14 18:35:36</sys_updated_on><value>record_successfully_updated</value><variable display_value="Assert type">334b7bb7675003007ba405225685ef72</variable></sys_variable_value><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_atf_step</document><document_key>1a4926ef07e101102673f4be7c1ed0eb</document_key><order>200</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-02-14 18:35:36</sys_created_on><sys_id>5e4926ef07e101102673f4be7c1ed0ec</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-02-14 18:35:36</sys_updated_on><value>sys_security_acl</value><variable display_value="Table">53fb0f535320220002c6435723dc34ec</variable></sys_variable_value><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_atf_step</document><document_key>1a4926ef07e101102673f4be7c1ed0eb</document_key><order>100</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-02-14 18:35:36</sys_created_on><sys_id>9a4926ef07e101102673f4be7c1ed0ec</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-02-14 18:35:36</sys_updated_on><value>0</value><variable display_value="Enforce security">46dbcb535320220002c6435723dc3409</variable></sys_variable_value><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_atf_step</document><document_key>1a4926ef07e101102673f4be7c1ed0eb</document_key><order>300</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-02-14 18:35:36</sys_created_on><sys_id>d64926ef07e101102673f4be7c1ed0ec</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-02-14 18:35:36</sys_updated_on><value>de9243e207e101102673f4be7c1ed03a</value><variable display_value="Record">501c8f535320220002c6435723dc34da</variable></sys_variable_value><sys_element_mapping action="delete_multiple" query="table=var__m_atf_input_variable_17a72288df60220062fe6c7a4df26397^id=1a4926ef07e101102673f4be7c1ed0eb"/></record_update>]]></payload>
+        <payload_hash>-1343108570</payload_hash>
+        <record_name>Record Update</record_name>
+        <reverted_from/>
+        <source>e5114ba207e101102673f4be7c1ed097</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-02-14 19:19:14</sys_created_on>
+        <sys_id>5d43f223076501102673f4be7c1ed096</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17ef9acbd700000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-02-14 19:19:14</sys_updated_on>
+        <type>Test Step</type>
+        <update_guid>5543f223c3650110bae492ec63095a96</update_guid>
+        <update_guid_history>5543f223c3650110bae492ec63095a96:-1343108570,b423beeff32501107e5b15d010cf5c8b:158360453,48237eef59250110d51018fd2f5d9a1c:1659829476,4f13faef6f250110a74fee4cddedefcd:-1133668797,ce13baef15250110fbfb945e48a534c9:367800226,d113baef79250110f0b9d9c333bb9115:1195374806,2c137aef732501106d15a7887430be41:-1598123467,af033aeff12501101712f0ce2611137a:-96654444,ae03f6efdb25011081b4e72d2060a97b:1404814579,6503b6ef17250110c68f38c25ef6316d:-1388683694,240376efa42501102a47382304b9166d:112785329,dbd2beafcf250110e29ff53beb085751:1614254352,92d27eaf08250110bfe82408b663ce2f:-1179243921,81d2faaf93250110f9569db34c6bc2e1:322225102,40d2baaf4e250110e3350f306bd6bc8e:1823694125,4fc27aafc0250110c2821285aaf2556b:496274263,fdc2f6afad25011069316d0c07200b63:1997743286,9cc276af9125011063b5f3bb45a63483:-795754987,0fb236af042501101cd7e27f380ca533:705714036,bdb2b2af8a25011072ca537921f19ce3:-2087784237,e0b272afcf250110385e94ab17007887:-586315214,524926efede101102d1f2fb9816458fb:404714364</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-02-14 19:19:17</sys_created_on>
+        <sys_db_object display_value="" name="sys_atf_step">sys_atf_step</sys_db_object>
+        <sys_id>12f15247967345688dc1bc99c37e1890</sys_id>
+        <sys_metadata>1a4926ef07e101102673f4be7c1ed0eb</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Record Update</sys_name>
+        <sys_package display_value="canWrite" source="x_402400_canwrite">d89efe6a07a101102673f4be7c1ed026</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="canWrite">d89efe6a07a101102673f4be7c1ed026</sys_scope>
+        <sys_scope_delete display_value="">4d786b39dd554ba0af8b3eda5f6d8900</sys_scope_delete>
+        <sys_update_name>sys_atf_step_1a4926ef07e101102673f4be7c1ed0eb</sys_update_name>
+        <sys_update_version display_value="sys_atf_step_1a4926ef07e101102673f4be7c1ed0eb">5d43f223076501102673f4be7c1ed096</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-02-14 19:19:17</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

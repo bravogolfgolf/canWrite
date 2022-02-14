@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step">
+    <sys_atf_step action="DELETE">
+        <active>true</active>
+        <copied_from display_value="">d37ade6f07a101102673f4be7c1ed098</copied_from>
+        <description>Update a record in 'x_402400_canwrite_glideelement' with the following values:
+Order for = {{Step 1: Create a User.User}}
+and Short description = Short Description ACL IS Active
+Confirm the record was successfully updated</description>
+        <display_name>Record Update</display_name>
+        <inputs/>
+        <inputs/>
+        <mugshots_cache_json/>
+        <notes/>
+        <order>15</order>
+        <snapshot/>
+        <step_config display_value="Record Update">17a72288df60220062fe6c7a4df26397</step_config>
+        <sys_class_name>sys_atf_step</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-02-14 18:33:49</sys_created_on>
+        <sys_id>48e8a2af07e101102673f4be7c1ed0b7</sys_id>
+        <sys_mod_count>69</sys_mod_count>
+        <sys_name>Record Update</sys_name>
+        <sys_package display_value="canWrite" source="x_402400_canwrite">d89efe6a07a101102673f4be7c1ed026</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="canWrite">d89efe6a07a101102673f4be7c1ed026</sys_scope>
+        <sys_update_name>sys_atf_step_48e8a2af07e101102673f4be7c1ed0b7</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-02-14 19:02:41</sys_updated_on>
+        <table>x_402400_canwrite_glideelement</table>
+        <test display_value="ACL Behavior Test - Active Base/Active SD">72d8226f07e101102673f4be7c1ed010</test>
+        <timeout/>
+        <warning_message/>
+    </sys_atf_step>
+    <sys_variable_value action="DELETE" query="document_key=48e8a2af07e101102673f4be7c1ed0b7"/>
+    <sys_variable_value action="DELETE">
+        <document>sys_atf_step</document>
+        <document_key>48e8a2af07e101102673f4be7c1ed0b7</document_key>
+        <order>400</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-02-14 18:33:49</sys_created_on>
+        <sys_id>08e8a2af07e101102673f4be7c1ed0b9</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-02-14 18:33:49</sys_updated_on>
+        <value>order_for={{step['bed8226f07e101102673f4be7c1ed014'].user}}^short_description=Short Description ACL IS Active^EQ</value>
+        <variable display_value="Field values">bc4c43935320220002c6435723dc34a2</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>sys_atf_step</document>
+        <document_key>48e8a2af07e101102673f4be7c1ed0b7</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-02-14 18:33:49</sys_created_on>
+        <sys_id>0ce8a2af07e101102673f4be7c1ed0b8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-02-14 18:33:49</sys_updated_on>
+        <value>record_successfully_updated</value>
+        <variable display_value="Assert type">334b7bb7675003007ba405225685ef72</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>sys_atf_step</document>
+        <document_key>48e8a2af07e101102673f4be7c1ed0b7</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-02-14 18:33:49</sys_created_on>
+        <sys_id>44e8a2af07e101102673f4be7c1ed0b9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-02-14 18:33:49</sys_updated_on>
+        <value>x_402400_canwrite_glideelement</value>
+        <variable display_value="Table">53fb0f535320220002c6435723dc34ec</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>sys_atf_step</document>
+        <document_key>48e8a2af07e101102673f4be7c1ed0b7</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-02-14 18:33:49</sys_created_on>
+        <sys_id>80e8a2af07e101102673f4be7c1ed0b9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-02-14 18:33:49</sys_updated_on>
+        <value>1</value>
+        <variable display_value="Enforce security">46dbcb535320220002c6435723dc3409</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>sys_atf_step</document>
+        <document_key>48e8a2af07e101102673f4be7c1ed0b7</document_key>
+        <order>300</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-02-14 18:33:49</sys_created_on>
+        <sys_id>cce8a2af07e101102673f4be7c1ed0b8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-02-14 18:33:49</sys_updated_on>
+        <value/>
+        <variable display_value="Record">501c8f535320220002c6435723dc34da</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="DELETE" query="id=48e8a2af07e101102673f4be7c1ed0b7"/>
+    <sys_element_mapping action="DELETE">
+        <field>field_values</field>
+        <id>48e8a2af07e101102673f4be7c1ed0b7</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-02-14 18:33:49</sys_created_on>
+        <sys_id>cce8a2af07e101102673f4be7c1ed0b9</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-02-14 18:33:49</sys_updated_on>
+        <table>var__m_atf_input_variable_17a72288df60220062fe6c7a4df26397</table>
+        <value>order_for={{step['bed8226f07e101102673f4be7c1ed014'].user}}^short_description=Short Description ACL IS Active^EQ</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="DELETE">
+        <field>record_id</field>
+        <id>48e8a2af07e101102673f4be7c1ed0b7</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-02-14 18:33:49</sys_created_on>
+        <sys_id>0ce8a2af07e101102673f4be7c1ed0b9</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-02-14 18:33:49</sys_updated_on>
+        <table>var__m_atf_input_variable_17a72288df60220062fe6c7a4df26397</table>
+        <value>{{step['3fd8a2af07e101102673f4be7c1ed08f'].record_id}}</value>
+    </sys_element_mapping>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="canWrite">d89efe6a07a101102673f4be7c1ed026</application>
+        <file_path/>
+        <instance_id>7e6ed576dbc7ac90e26fd7c8f49619fd</instance_id>
+        <instance_name>dev108669</instance_name>
+        <name>sys_atf_step_48e8a2af07e101102673f4be7c1ed0b7</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step"><sys_atf_step action="INSERT_OR_UPDATE"><active>true</active><copied_from display_value="">d37ade6f07a101102673f4be7c1ed098</copied_from><description>Update a record in 'x_402400_canwrite_glideelement' with the following values:
+Order for = {{Step 1: Create a User.User}}
+and Short description = Short Description ACL IS Active
+Confirm the record was successfully updated</description><display_name>Record Update</display_name><inputs/><inputs/><mugshots_cache_json/><notes/><order>15</order><snapshot/><step_config display_value="Record Update">17a72288df60220062fe6c7a4df26397</step_config><sys_class_name>sys_atf_step</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-02-14 18:33:49</sys_created_on><sys_id>48e8a2af07e101102673f4be7c1ed0b7</sys_id><sys_mod_count>69</sys_mod_count><sys_name>Record Update</sys_name><sys_package display_value="canWrite" source="x_402400_canwrite">d89efe6a07a101102673f4be7c1ed026</sys_package><sys_policy/><sys_scope display_value="canWrite">d89efe6a07a101102673f4be7c1ed026</sys_scope><sys_update_name>sys_atf_step_48e8a2af07e101102673f4be7c1ed0b7</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-02-14 19:02:41</sys_updated_on><table>x_402400_canwrite_glideelement</table><test display_value="ACL Behavior Test - Active Base/Active SD">72d8226f07e101102673f4be7c1ed010</test><timeout/><warning_message/></sys_atf_step><sys_variable_value action="delete_multiple" query="document_key=48e8a2af07e101102673f4be7c1ed0b7"/><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_atf_step</document><document_key>48e8a2af07e101102673f4be7c1ed0b7</document_key><order>400</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-02-14 18:33:49</sys_created_on><sys_id>08e8a2af07e101102673f4be7c1ed0b9</sys_id><sys_mod_count>1</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-02-14 18:33:49</sys_updated_on><value>order_for={{step['bed8226f07e101102673f4be7c1ed014'].user}}^short_description=Short Description ACL IS Active^EQ</value><variable display_value="Field values">bc4c43935320220002c6435723dc34a2</variable></sys_variable_value><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_atf_step</document><document_key>48e8a2af07e101102673f4be7c1ed0b7</document_key><order>100</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-02-14 18:33:49</sys_created_on><sys_id>0ce8a2af07e101102673f4be7c1ed0b8</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-02-14 18:33:49</sys_updated_on><value>record_successfully_updated</value><variable display_value="Assert type">334b7bb7675003007ba405225685ef72</variable></sys_variable_value><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_atf_step</document><document_key>48e8a2af07e101102673f4be7c1ed0b7</document_key><order>200</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-02-14 18:33:49</sys_created_on><sys_id>44e8a2af07e101102673f4be7c1ed0b9</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-02-14 18:33:49</sys_updated_on><value>x_402400_canwrite_glideelement</value><variable display_value="Table">53fb0f535320220002c6435723dc34ec</variable></sys_variable_value><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_atf_step</document><document_key>48e8a2af07e101102673f4be7c1ed0b7</document_key><order>100</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-02-14 18:33:49</sys_created_on><sys_id>80e8a2af07e101102673f4be7c1ed0b9</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-02-14 18:33:49</sys_updated_on><value>1</value><variable display_value="Enforce security">46dbcb535320220002c6435723dc3409</variable></sys_variable_value><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_atf_step</document><document_key>48e8a2af07e101102673f4be7c1ed0b7</document_key><order>300</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-02-14 18:33:49</sys_created_on><sys_id>cce8a2af07e101102673f4be7c1ed0b8</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-02-14 18:33:49</sys_updated_on><value/><variable display_value="Record">501c8f535320220002c6435723dc34da</variable></sys_variable_value><sys_element_mapping action="delete_multiple" query="id=48e8a2af07e101102673f4be7c1ed0b7"/><sys_element_mapping action="INSERT_OR_UPDATE"><field>field_values</field><id>48e8a2af07e101102673f4be7c1ed0b7</id><sys_created_by>admin</sys_created_by><sys_created_on>2022-02-14 18:33:49</sys_created_on><sys_id>cce8a2af07e101102673f4be7c1ed0b9</sys_id><sys_mod_count>1</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-02-14 18:33:49</sys_updated_on><table>var__m_atf_input_variable_17a72288df60220062fe6c7a4df26397</table><value>order_for={{step['bed8226f07e101102673f4be7c1ed014'].user}}^short_description=Short Description ACL IS Active^EQ</value></sys_element_mapping><sys_element_mapping action="INSERT_OR_UPDATE"><field>record_id</field><id>48e8a2af07e101102673f4be7c1ed0b7</id><sys_created_by>admin</sys_created_by><sys_created_on>2022-02-14 18:33:49</sys_created_on><sys_id>0ce8a2af07e101102673f4be7c1ed0b9</sys_id><sys_mod_count>1</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-02-14 18:33:49</sys_updated_on><table>var__m_atf_input_variable_17a72288df60220062fe6c7a4df26397</table><value>{{step['3fd8a2af07e101102673f4be7c1ed08f'].record_id}}</value></sys_element_mapping></record_update>]]></payload>
+        <payload_hash>1500811385</payload_hash>
+        <record_name>Record Update</record_name>
+        <reverted_from/>
+        <source>e5114ba207e101102673f4be7c1ed097</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-02-14 19:02:41</sys_created_on>
+        <sys_id>0f7f622b072501102673f4be7c1ed077</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17ef99d967a0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-02-14 19:02:41</sys_updated_on>
+        <type>Test Step</type>
+        <update_guid>077f622b34250110e74a9b3449250677</update_guid>
+        <update_guid_history>077f622b34250110e74a9b3449250677:1500811385,e27f622b8a2501105932293e1aa3ba35:-1035397254,da7f622b0c2501106f699ee107975209:723361403,867f222bf92501100382c5040869ecaa:-1812847236,925f6ee7712501106c87660b81cf7f77:-54088579,bd5f2ee736250110f506910d45b5d2e2:-16103789,295feae75d250110f4b49a8df3ae10f2:1742654868,f45feae700250110c4d4fe2cb44e6a47:-793553771,185faae744250110dd2640a4d0510bc5:965204886,f74faae76c250110c429e4b6d3be4924:-1571003753,134f6ae7ae250110e5a9a6183cccf1a6:187754904,be4f6ae77a2501105d587eb0a7496711:1946513561,8e4f2ae7ec25011070aba49db7c58d56:-589695078,602f62e7b62501104a1bf8c14c16a0f2:1169063579,a31f22e74f2501108dbeb684e5d58c1b:-1367145060,961faea75d250110779c3d7d26ca484b:-1329160270,951f6ea7f42501106fadadd07502f724:429598387,4c1feaa7d725011043ae6b76292429e9:-2106610252,cf0faaa79e2501103c0592d9fd3408db:-347851595,860f6aa77b25011076762536727a489b:1410907062,340f2aa7112501106a537a24d6972a80:-1125301577,a7fee6a7d125011025d6ced2ab449b24:633457080,defe66a76225011044d4e8159378719f:-1902751559,00e8a2af67e10110556b967b3950f4c2:-1386849881,0ce8a2af01e10110967d3f1bad5c9cbb:-734994124</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-02-14 19:02:42</sys_created_on>
+        <sys_db_object display_value="" name="sys_atf_step">sys_atf_step</sys_db_object>
+        <sys_id>139dcd9d2ea8471285ac9338effed4f1</sys_id>
+        <sys_metadata>48e8a2af07e101102673f4be7c1ed0b7</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Record Update</sys_name>
+        <sys_package display_value="canWrite" source="x_402400_canwrite">d89efe6a07a101102673f4be7c1ed026</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="canWrite">d89efe6a07a101102673f4be7c1ed026</sys_scope>
+        <sys_scope_delete display_value="">4d786b39dd554ba0af8b3eda5f6d8900</sys_scope_delete>
+        <sys_update_name>sys_atf_step_48e8a2af07e101102673f4be7c1ed0b7</sys_update_name>
+        <sys_update_version display_value="sys_atf_step_48e8a2af07e101102673f4be7c1ed0b7">0f7f622b072501102673f4be7c1ed077</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-02-14 19:02:42</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

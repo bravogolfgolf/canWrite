@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_test_suite_test">
+    <sys_atf_test_suite_test action="DELETE">
+        <abort_on_failure>false</abort_on_failure>
+        <order/>
+        <sys_class_name>sys_atf_test_suite_test</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-02-14 18:51:02</sys_created_on>
+        <sys_id>04dc22e3072501102673f4be7c1ed0e4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>80dceaa3072501102673f4be7c1ed00e</sys_name>
+        <sys_package display_value="canWrite" source="x_402400_canwrite">d89efe6a07a101102673f4be7c1ed026</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="canWrite">d89efe6a07a101102673f4be7c1ed026</sys_scope>
+        <sys_update_name>sys_atf_test_suite_test_04dc22e3072501102673f4be7c1ed0e4</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-02-14 18:51:02</sys_updated_on>
+        <test display_value="ACL Behavior Test - All">80dceaa3072501102673f4be7c1ed00e</test>
+        <test_suite display_value="can Write Suite">5cbe56e307e101102673f4be7c1ed0bb</test_suite>
+    </sys_atf_test_suite_test>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="canWrite">d89efe6a07a101102673f4be7c1ed026</application>
+        <file_path/>
+        <instance_id>7e6ed576dbc7ac90e26fd7c8f49619fd</instance_id>
+        <instance_name>dev108669</instance_name>
+        <name>sys_atf_test_suite_test_04dc22e3072501102673f4be7c1ed0e4</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_test_suite_test"><sys_atf_test_suite_test action="INSERT_OR_UPDATE"><abort_on_failure>false</abort_on_failure><order/><sys_class_name>sys_atf_test_suite_test</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-02-14 18:51:02</sys_created_on><sys_id>04dc22e3072501102673f4be7c1ed0e4</sys_id><sys_mod_count>0</sys_mod_count><sys_name>80dceaa3072501102673f4be7c1ed00e</sys_name><sys_package display_value="canWrite" source="x_402400_canwrite">d89efe6a07a101102673f4be7c1ed026</sys_package><sys_policy/><sys_scope display_value="canWrite">d89efe6a07a101102673f4be7c1ed026</sys_scope><sys_update_name>sys_atf_test_suite_test_04dc22e3072501102673f4be7c1ed0e4</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-02-14 18:51:02</sys_updated_on><test display_value="ACL Behavior Test - All">80dceaa3072501102673f4be7c1ed00e</test><test_suite display_value="can Write Suite">5cbe56e307e101102673f4be7c1ed0bb</test_suite></sys_atf_test_suite_test></record_update>]]></payload>
+        <payload_hash>-873289320</payload_hash>
+        <record_name>80dceaa3072501102673f4be7c1ed00e</record_name>
+        <reverted_from/>
+        <source>862a0fb1072101102673f4be7c1ed00c</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by/>
+        <sys_created_on>2022-02-09 10:29:51</sys_created_on>
+        <sys_id>2db3fa23076501102673f4be7c1ed0ad</sys_id>
+        <sys_mod_count/>
+        <sys_recorded_at>17ede0845180000000</sys_recorded_at>
+        <sys_updated_by/>
+        <sys_updated_on/>
+        <type>Test Suite Test</type>
+        <update_guid>e9b3fa2311650110822ef2842ce4c3ad</update_guid>
+        <update_guid_history>e9b3fa2311650110822ef2842ce4c3ad:-873289320</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-02-14 19:21:09</sys_created_on>
+        <sys_db_object display_value="" name="sys_atf_test_suite_test">sys_atf_test_suite_test</sys_db_object>
+        <sys_id>cd313b28a054469cad9bd5b6ae929810</sys_id>
+        <sys_metadata>04dc22e3072501102673f4be7c1ed0e4</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>80dceaa3072501102673f4be7c1ed00e</sys_name>
+        <sys_package display_value="canWrite" source="x_402400_canwrite">d89efe6a07a101102673f4be7c1ed026</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="canWrite">d89efe6a07a101102673f4be7c1ed026</sys_scope>
+        <sys_scope_delete display_value="">4d786b39dd554ba0af8b3eda5f6d8900</sys_scope_delete>
+        <sys_update_name>sys_atf_test_suite_test_04dc22e3072501102673f4be7c1ed0e4</sys_update_name>
+        <sys_update_version display_value="sys_atf_test_suite_test_04dc22e3072501102673f4be7c1ed0e4">2db3fa23076501102673f4be7c1ed0ad</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-02-14 19:21:09</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
