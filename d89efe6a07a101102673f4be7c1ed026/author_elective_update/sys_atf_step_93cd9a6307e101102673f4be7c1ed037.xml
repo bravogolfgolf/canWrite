@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step">
+    <sys_atf_step action="DELETE">
+        <active>true</active>
+        <copied_from display_value="Run Server Side Script">7b544f2607e101102673f4be7c1ed0e2</copied_from>
+        <description>Run Server Side Validation Script</description>
+        <display_name>Run Server Side Script</display_name>
+        <inputs/>
+        <mugshots_cache_json/>
+        <notes/>
+        <order>7</order>
+        <snapshot/>
+        <step_config display_value="Run Server Side Script">41de4a935332120028bc29cac2dc349a</step_config>
+        <sys_class_name>sys_atf_step</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-02-14 17:45:26</sys_created_on>
+        <sys_id>93cd9a6307e101102673f4be7c1ed037</sys_id>
+        <sys_mod_count>12</sys_mod_count>
+        <sys_name>Run Server Side Script</sys_name>
+        <sys_package display_value="canWrite" source="x_402400_canwrite">d89efe6a07a101102673f4be7c1ed026</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="canWrite">d89efe6a07a101102673f4be7c1ed026</sys_scope>
+        <sys_update_name>sys_atf_step_93cd9a6307e101102673f4be7c1ed037</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-02-14 17:47:06</sys_updated_on>
+        <table/>
+        <test display_value="Can Write copy">7acdd26307e101102673f4be7c1ed09b</test>
+        <timeout/>
+        <warning_message/>
+    </sys_atf_step>
+    <sys_variable_value action="DELETE" query="document_key=93cd9a6307e101102673f4be7c1ed037"/>
+    <sys_variable_value action="DELETE">
+        <document>sys_atf_step</document>
+        <document_key>93cd9a6307e101102673f4be7c1ed037</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-02-14 17:45:26</sys_created_on>
+        <sys_id>5fcd9a6307e101102673f4be7c1ed037</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-02-14 17:45:26</sys_updated_on>
+        <value>(function(outputs, steps, stepResult, assertEqual) {&#13;
+&#13;
+    describe('When Conditional ACL is NOT Active &amp; Short Description ACL IS active,', function() {&#13;
+		&#13;
+        var glideRecord = new GlideRecord('x_402400_canwrite_glideelement');&#13;
+&#13;
+		describe('Role on ' + glideRecord.getClassDisplayValue(), function() {&#13;
+&#13;
+            it('CAN Write record', function() {&#13;
+                checkWrite(glideRecord, true);&#13;
+            });&#13;
+&#13;
+            var glideElement = 'short_description';&#13;
+&#13;
+            it('CAN Write to ' + glideElement + ' field', function() {&#13;
+                checkWrite(glideRecord.getElement(glideElement), true);&#13;
+            });&#13;
+        });&#13;
+    });&#13;
+&#13;
+    function checkWrite(object, expected) {&#13;
+        var result = object.canWrite();&#13;
+        expect(result).toBe(expected);&#13;
+    }&#13;
+&#13;
+})(outputs, steps, stepResult, assertEqual);&#13;
+jasmine.getEnv().randomizeTests(false);&#13;
+jasmine.getEnv().execute();</value>
+        <variable display_value="Test script">989d9e235324220002c6435723dc3484</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>sys_atf_step</document>
+        <document_key>93cd9a6307e101102673f4be7c1ed037</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-02-14 17:45:26</sys_created_on>
+        <sys_id>9bcd9a6307e101102673f4be7c1ed037</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-02-14 17:45:26</sys_updated_on>
+        <value>3.1</value>
+        <variable display_value="Jasmine version">42f2564b73031300440211d8faf6a777</variable>
+    </sys_variable_value>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="canWrite">d89efe6a07a101102673f4be7c1ed026</application>
+        <file_path/>
+        <instance_id>7e6ed576dbc7ac90e26fd7c8f49619fd</instance_id>
+        <instance_name>dev108669</instance_name>
+        <name>sys_atf_step_93cd9a6307e101102673f4be7c1ed037</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step"><sys_atf_step action="INSERT_OR_UPDATE"><active>true</active><copied_from display_value="Run Server Side Script">7b544f2607e101102673f4be7c1ed0e2</copied_from><description>Run Server Side Validation Script</description><display_name>Run Server Side Script</display_name><inputs/><mugshots_cache_json/><notes/><order>7</order><snapshot/><step_config display_value="Run Server Side Script">41de4a935332120028bc29cac2dc349a</step_config><sys_class_name>sys_atf_step</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-02-14 17:45:26</sys_created_on><sys_id>93cd9a6307e101102673f4be7c1ed037</sys_id><sys_mod_count>12</sys_mod_count><sys_name>Run Server Side Script</sys_name><sys_package display_value="canWrite" source="x_402400_canwrite">d89efe6a07a101102673f4be7c1ed026</sys_package><sys_policy/><sys_scope display_value="canWrite">d89efe6a07a101102673f4be7c1ed026</sys_scope><sys_update_name>sys_atf_step_93cd9a6307e101102673f4be7c1ed037</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-02-14 17:47:06</sys_updated_on><table/><test display_value="Can Write copy">7acdd26307e101102673f4be7c1ed09b</test><timeout/><warning_message/></sys_atf_step><sys_variable_value action="delete_multiple" query="document_key=93cd9a6307e101102673f4be7c1ed037"/><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_atf_step</document><document_key>93cd9a6307e101102673f4be7c1ed037</document_key><order>200</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-02-14 17:45:26</sys_created_on><sys_id>5fcd9a6307e101102673f4be7c1ed037</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-02-14 17:45:26</sys_updated_on><value>(function(outputs, steps, stepResult, assertEqual) {&#13;
+&#13;
+    describe('When Conditional ACL is NOT Active &amp; Short Description ACL IS active,', function() {&#13;
+		&#13;
+        var glideRecord = new GlideRecord('x_402400_canwrite_glideelement');&#13;
+&#13;
+		describe('Role on ' + glideRecord.getClassDisplayValue(), function() {&#13;
+&#13;
+            it('CAN Write record', function() {&#13;
+                checkWrite(glideRecord, true);&#13;
+            });&#13;
+&#13;
+            var glideElement = 'short_description';&#13;
+&#13;
+            it('CAN Write to ' + glideElement + ' field', function() {&#13;
+                checkWrite(glideRecord.getElement(glideElement), true);&#13;
+            });&#13;
+        });&#13;
+    });&#13;
+&#13;
+    function checkWrite(object, expected) {&#13;
+        var result = object.canWrite();&#13;
+        expect(result).toBe(expected);&#13;
+    }&#13;
+&#13;
+})(outputs, steps, stepResult, assertEqual);&#13;
+jasmine.getEnv().randomizeTests(false);&#13;
+jasmine.getEnv().execute();</value><variable display_value="Test script">989d9e235324220002c6435723dc3484</variable></sys_variable_value><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_atf_step</document><document_key>93cd9a6307e101102673f4be7c1ed037</document_key><order>100</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-02-14 17:45:26</sys_created_on><sys_id>9bcd9a6307e101102673f4be7c1ed037</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-02-14 17:45:26</sys_updated_on><value>3.1</value><variable display_value="Jasmine version">42f2564b73031300440211d8faf6a777</variable></sys_variable_value></record_update>]]></payload>
+        <payload_hash>-1846946860</payload_hash>
+        <record_name>Run Server Side Script</record_name>
+        <reverted_from/>
+        <source>e5114ba207e101102673f4be7c1ed097</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-02-14 17:47:06</sys_created_on>
+        <sys_id>332e56a307e101102673f4be7c1ed0be</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17ef958651b0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-02-14 17:47:06</sys_updated_on>
+        <type>Test Step</type>
+        <update_guid>3b2e56a366e101106f3201796b2d58bd</update_guid>
+        <update_guid_history>3b2e56a366e101106f3201796b2d58bd:-1846946860,532e16a3a8e101100afed51c503f4ab2:-1893735147,c92e92a39ee1011018d5e098482ef362:-1940523434,b71e52a3c5e1011054b7f656b1e8f145:-911046642,961ede636ae101100d1d38397b25a6f5:-957834929,291ede6304e10110ecf02087e96cac02:-1004623216,d3cd9a6364e10110e11325ceb56f4439:-1051411503</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-02-14 17:47:09</sys_created_on>
+        <sys_db_object display_value="" name="sys_atf_step">sys_atf_step</sys_db_object>
+        <sys_id>01961093ce874008830c2d87ca6a5840</sys_id>
+        <sys_metadata>93cd9a6307e101102673f4be7c1ed037</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Run Server Side Script</sys_name>
+        <sys_package display_value="canWrite" source="x_402400_canwrite">d89efe6a07a101102673f4be7c1ed026</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="canWrite">d89efe6a07a101102673f4be7c1ed026</sys_scope>
+        <sys_scope_delete display_value="">4d786b39dd554ba0af8b3eda5f6d8900</sys_scope_delete>
+        <sys_update_name>sys_atf_step_93cd9a6307e101102673f4be7c1ed037</sys_update_name>
+        <sys_update_version display_value="sys_atf_step_93cd9a6307e101102673f4be7c1ed037">332e56a307e101102673f4be7c1ed0be</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-02-14 17:47:09</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
